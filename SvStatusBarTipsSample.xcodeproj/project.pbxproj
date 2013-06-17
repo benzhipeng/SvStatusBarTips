@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54D722717523BB9007792C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D722617523BB9007792C0 /* UIKit.framework */; };
+		F54D722917523BB9007792C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D722817523BB9007792C0 /* Foundation.framework */; };
+		F54D722B17523BB9007792C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D722A17523BB9007792C0 /* CoreGraphics.framework */; };
+		F54D723117523BB9007792C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F54D722F17523BB9007792C0 /* InfoPlist.strings */; };
+		F54D723317523BB9007792C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D723217523BB9007792C0 /* main.m */; };
+		F54D723717523BB9007792C0 /* SvStatusBarTipsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D723617523BB9007792C0 /* SvStatusBarTipsAppDelegate.m */; };
+		F54D723917523BB9007792C0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F54D723817523BB9007792C0 /* Default.png */; };
+		F54D723B17523BB9007792C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F54D723A17523BB9007792C0 /* Default@2x.png */; };
+		F54D723D17523BB9007792C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F54D723C17523BB9007792C0 /* Default-568h@2x.png */; };
+		F54D724017523BB9007792C0 /* SvStatusBarTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54D723F17523BB9007792C0 /* SvStatusBarTipsViewController.m */; };
+		F54D724317523BB9007792C0 /* SvStatusBarTipsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54D724117523BB9007792C0 /* SvStatusBarTipsViewController_iPhone.xib */; };
+		F54D724617523BB9007792C0 /* SvStatusBarTipsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54D724417523BB9007792C0 /* SvStatusBarTipsViewController_iPad.xib */; };
+		F578133717524A5200E9678B /* SvStatusBarTipsWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = F578133617524A5200E9678B /* SvStatusBarTipsWindow.m */; };
+		F57813391752581500E9678B /* IMG_2445.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F57813381752581500E9678B /* IMG_2445.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F54D722317523BB9007792C0 /* SvStatusBarTipsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvStatusBarTipsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54D722617523BB9007792C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F54D722817523BB9007792C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F54D722A17523BB9007792C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F54D722E17523BB9007792C0 /* SvStatusBarTipsSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SvStatusBarTipsSample-Info.plist"; sourceTree = "<group>"; };
+		F54D723017523BB9007792C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F54D723217523BB9007792C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F54D723417523BB9007792C0 /* SvStatusBarTipsSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SvStatusBarTipsSample-Prefix.pch"; sourceTree = "<group>"; };
+		F54D723517523BB9007792C0 /* SvStatusBarTipsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SvStatusBarTipsAppDelegate.h; sourceTree = "<group>"; };
+		F54D723617523BB9007792C0 /* SvStatusBarTipsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SvStatusBarTipsAppDelegate.m; sourceTree = "<group>"; };
+		F54D723817523BB9007792C0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F54D723A17523BB9007792C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F54D723C17523BB9007792C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F54D723E17523BB9007792C0 /* SvStatusBarTipsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SvStatusBarTipsViewController.h; sourceTree = "<group>"; };
+		F54D723F17523BB9007792C0 /* SvStatusBarTipsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SvStatusBarTipsViewController.m; sourceTree = "<group>"; };
+		F54D724217523BB9007792C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SvStatusBarTipsViewController_iPhone.xib; sourceTree = "<group>"; };
+		F54D724517523BB9007792C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SvStatusBarTipsViewController_iPad.xib; sourceTree = "<group>"; };
+		F578133517524A5200E9678B /* SvStatusBarTipsWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvStatusBarTipsWindow.h; sourceTree = "<group>"; };
+		F578133617524A5200E9678B /* SvStatusBarTipsWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvStatusBarTipsWindow.m; sourceTree = "<group>"; };
+		F57813381752581500E9678B /* IMG_2445.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2445.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54D722017523BB9007792C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D722717523BB9007792C0 /* UIKit.framework in Frameworks */,
+				F54D722917523BB9007792C0 /* Foundation.framework in Frameworks */,
+				F54D722B17523BB9007792C0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54D721A17523BB9007792C0 = {
+			isa = PBXGroup;
+			children = (
+				F54D722C17523BB9007792C0 /* SvStatusBarTipsSample */,
+				F54D722517523BB9007792C0 /* Frameworks */,
+				F54D722417523BB9007792C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54D722417523BB9007792C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54D722317523BB9007792C0 /* SvStatusBarTipsSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54D722517523BB9007792C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F54D722617523BB9007792C0 /* UIKit.framework */,
+				F54D722817523BB9007792C0 /* Foundation.framework */,
+				F54D722A17523BB9007792C0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F54D722C17523BB9007792C0 /* SvStatusBarTipsSample */ = {
+			isa = PBXGroup;
+			children = (
+				F54D723517523BB9007792C0 /* SvStatusBarTipsAppDelegate.h */,
+				F54D723617523BB9007792C0 /* SvStatusBarTipsAppDelegate.m */,
+				F54D723E17523BB9007792C0 /* SvStatusBarTipsViewController.h */,
+				F54D723F17523BB9007792C0 /* SvStatusBarTipsViewController.m */,
+				F54D724117523BB9007792C0 /* SvStatusBarTipsViewController_iPhone.xib */,
+				F54D724417523BB9007792C0 /* SvStatusBarTipsViewController_iPad.xib */,
+				F54D724C17523BDC007792C0 /* SvStatusBarTips */,
+				F54D722D17523BB9007792C0 /* Supporting Files */,
+			);
+			path = SvStatusBarTipsSample;
+			sourceTree = "<group>";
+		};
+		F54D722D17523BB9007792C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F57813381752581500E9678B /* IMG_2445.JPG */,
+				F54D722E17523BB9007792C0 /* SvStatusBarTipsSample-Info.plist */,
+				F54D722F17523BB9007792C0 /* InfoPlist.strings */,
+				F54D723217523BB9007792C0 /* main.m */,
+				F54D723417523BB9007792C0 /* SvStatusBarTipsSample-Prefix.pch */,
+				F54D723817523BB9007792C0 /* Default.png */,
+				F54D723A17523BB9007792C0 /* Default@2x.png */,
+				F54D723C17523BB9007792C0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F54D724C17523BDC007792C0 /* SvStatusBarTips */ = {
+			isa = PBXGroup;
+			children = (
+				F578133517524A5200E9678B /* SvStatusBarTipsWindow.h */,
+				F578133617524A5200E9678B /* SvStatusBarTipsWindow.m */,
+			);
+			path = SvStatusBarTips;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54D722217523BB9007792C0 /* SvStatusBarTipsSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54D724917523BB9007792C0 /* Build configuration list for PBXNativeTarget "SvStatusBarTipsSample" */;
+			buildPhases = (
+				F54D721F17523BB9007792C0 /* Sources */,
+				F54D722017523BB9007792C0 /* Frameworks */,
+				F54D722117523BB9007792C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SvStatusBarTipsSample;
+			productName = SvStatusBarTipsSample;
+			productReference = F54D722317523BB9007792C0 /* SvStatusBarTipsSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54D721B17523BB9007792C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SvStatusBarTips;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = maple;
+			};
+			buildConfigurationList = F54D721E17523BB9007792C0 /* Build configuration list for PBXProject "SvStatusBarTipsSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F54D721A17523BB9007792C0;
+			productRefGroup = F54D722417523BB9007792C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54D722217523BB9007792C0 /* SvStatusBarTipsSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F54D722117523BB9007792C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D723117523BB9007792C0 /* InfoPlist.strings in Resources */,
+				F54D723917523BB9007792C0 /* Default.png in Resources */,
+				F54D723B17523BB9007792C0 /* Default@2x.png in Resources */,
+				F54D723D17523BB9007792C0 /* Default-568h@2x.png in Resources */,
+				F54D724317523BB9007792C0 /* SvStatusBarTipsViewController_iPhone.xib in Resources */,
+				F54D724617523BB9007792C0 /* SvStatusBarTipsViewController_iPad.xib in Resources */,
+				F57813391752581500E9678B /* IMG_2445.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54D721F17523BB9007792C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D723317523BB9007792C0 /* main.m in Sources */,
+				F54D723717523BB9007792C0 /* SvStatusBarTipsAppDelegate.m in Sources */,
+				F54D724017523BB9007792C0 /* SvStatusBarTipsViewController.m in Sources */,
+				F578133717524A5200E9678B /* SvStatusBarTipsWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F54D722F17523BB9007792C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54D723017523BB9007792C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F54D724117523BB9007792C0 /* SvStatusBarTipsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54D724217523BB9007792C0 /* en */,
+			);
+			name = SvStatusBarTipsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F54D724417523BB9007792C0 /* SvStatusBarTipsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F54D724517523BB9007792C0 /* en */,
+			);
+			name = SvStatusBarTipsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F54D724717523BB9007792C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F54D724817523BB9007792C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F54D724A17523BB9007792C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvStatusBarTipsSample/SvStatusBarTipsSample-Prefix.pch";
+				INFOPLIST_FILE = "SvStatusBarTipsSample/SvStatusBarTipsSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F54D724B17523BB9007792C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvStatusBarTipsSample/SvStatusBarTipsSample-Prefix.pch";
+				INFOPLIST_FILE = "SvStatusBarTipsSample/SvStatusBarTipsSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54D721E17523BB9007792C0 /* Build configuration list for PBXProject "SvStatusBarTipsSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54D724717523BB9007792C0 /* Debug */,
+				F54D724817523BB9007792C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54D724917523BB9007792C0 /* Build configuration list for PBXNativeTarget "SvStatusBarTipsSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54D724A17523BB9007792C0 /* Debug */,
+				F54D724B17523BB9007792C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54D721B17523BB9007792C0 /* Project object */;
+}
